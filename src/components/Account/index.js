@@ -1,8 +1,13 @@
 import React from 'react';
 
+import { PasswordForgetForm } from '../PasswordForget';
+import PasswordChangeForm from '../PasswordChange';
+
 const Account = () => (
     <div>
-        <h1>Accountindex</h1>
+        <h1>Account page</h1>
+        <PasswordForgetForm />
+        <PasswordChangeForm />
     </div>
 );
 
